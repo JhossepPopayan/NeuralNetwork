@@ -20,14 +20,12 @@ class NeuralNetwork:
         self.fun = activation_function
 
     def set_v(self, init_value = 0.15):
-        # self.v = np.random.normal(init_value, 0.6*init_value, (self.ne,self.nm))
         self.v = init_value*np.random.random((self.ne,self.nm))
 
     def get_v(self):
         return self.v
 
     def set_w(self, init_value = 0.15):
-        # self.w = np.random.normal(init_value, 0.6*init_value, (self.nm,self.no))
         self.w = init_value*np.random.random((self.nm,self.no))
 
     def get_w(self):

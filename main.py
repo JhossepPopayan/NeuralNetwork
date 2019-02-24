@@ -26,7 +26,7 @@ def linear_regression():
    learn_rate = 0.1
    max_iter = 10000
 
-   yd, J, Iter =nn.execute(learn_rate,max_iter)
+   yd, J, Iter = nn.execute(learn_rate,max_iter)
 
    plt.figure(1)
    plt.plot(x,y,'*',x,yd,'-r')
