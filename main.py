@@ -1,4 +1,4 @@
-from classes.neural_v10 import NeuralNetwork
+from classes.neural import NeuralNetwork
 import matplotlib.pyplot as plt
 import numpy as np
 
